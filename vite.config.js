@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/HuronTrading_v0.1/',
+  base: '/',
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
